@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Darumadrop+One&family=Kanit:wght@200&family=Kiwi+Maru&family=Lilita+One&family=Niramit:wght@200&family=Sigmar&family=Sofia&family=Sono:wght@300;400&family=Space+Mono:wght@700&family=VT323&family=Wix+Madefor+Text&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #93fb9d;
+    background-image: linear-gradient(315deg, #93fb9d 0%, #09c7fb 100%);
+    font-family: "Kiwi Maru", sans-serif;
+    color:rgb(64, 63, 61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(100m, 100, 100, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 0 1rem 0;
+}
+
+button {
+    background-color:#38ada9;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #079992;
+}
